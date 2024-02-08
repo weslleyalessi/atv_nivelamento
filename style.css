@@ -1,9 +1,10 @@
 h1{
     text-align: center;
-    color: whitesmoke;
+    color: gainsboro;
     background-color: aquamarine;
 }
 
-ol{
-  width: 1000px;  
+p{
+    font-size: 30px;
+    background-color: aliceblue; 
 }
