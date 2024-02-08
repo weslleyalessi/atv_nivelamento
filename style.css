@@ -1,8 +1,9 @@
 h1{
     text-align: center;
-    color: blue;
+    color: whitesmoke;
+    background-color: aquamarine;
 }
 
 p{
-    width: 35px;
+  width: 90px;  
 }
