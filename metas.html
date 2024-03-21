@@ -1,20 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Metas 2024</title>
-  <link rel="stylesheet" href="style-metas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metas 2024</title>
+    <link rel="stylesheet" href="style-metas.css">
 </head>
+
 <body>
-  <section class="conteudo-principal">
-    <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
-    <div class="botoes">
-      <button class="botao ativo">Me formar</button>
-      <button class="botao">Aprender a dirigir</button>
-      <button class="botao">Terminar um curso</button>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Minhas metas para este ano<span>_</span></h2>
+        <div class="conteudo">
+                <div class="botoes">
+                    <button class="botao ativo">Emagrecer</button>
+                    <button class="botao ">Passar de Ano</button>
+                    <button class="botao ">Passar no vestibular</button>
+                    <button class="botao ">Conseguir um emprego</button>
+                </div>
+       
+
+        <div class="abas-textos">
+           
+            <div class="aba-conteudo ativo">
+                <h3 class="aba-conteudo-titulo-principal">Emagrecer e colocar um shape</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Concluir o ensino médio</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Passar vestibular</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Conseguir Trabalho</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+        </div>
     </div>
-  </section>
-  <script src="main.js"></script>
+</section>
+   
+    <script src="main.js"></script>
 </body>
+
 </html>
+
+Adicionar comentário para a turma...
+
+
+Aviso: "<!DOCTYPE html> <html lang="pt-br">…"
+ROMULO JORGE LEITE PENA
+Criado em: 7 de mar.7 de mar.
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metas 2024</title>
+    <link rel="stylesheet" href="style-metas.css">
+</head>
+
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
+        <div class="botoes">
+            <button class="botao ativo">Conhecer o Pato donald</button>
+            <button class="botao">Viajar para Bratislava</button>
+            <button class="botao">Ir para A Lua</button>
+            <button class="botao">passar de ano</button>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap&#39;);
+
+:root {
+    --cor-de-fundo: #be1111;
+    --roxo: #7657ff;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: #3a375e80;
+    --texto-fundo: #3a375e4d;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+
+}
+
+.titulo-principal span {
+    color: var(--roxo);
+}
+
+.botao {
+    font-family: "Crakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
+
+.botoes {
+    display: block;
+}
+
+/*Aula 03*/
+
+.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--roxo);
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+
+    .botao:first-child {
+        border-radius: 40px 40px 0 0;
+    }}
+
+    @media screen and (min-width: 768px) {
+        .botoes {
+            display: flex;
+        }
+
+        .botao:first-child {
+            border-radius: 40px 0 0 0;
+        }
+
+        .botao:last-child {
+            border-radius: 0 40px 0 0;
+        }
+    }
